@@ -34,7 +34,7 @@ public class LensRandomizerSIE : MonoBehaviour
 
     public void RandomizeLensParameters()
     {
-        lensParams.thetaE = Random.Range(0.3f, 1);
+        lensParams.thetaE = Random.Range(0.4f, 1);
         lensParams.e1 = Random.Range(-0.49f, 0.49f);
         lensParams.e2 = Random.Range(-0.49f, 0.49f);
         lensParams.x0 = Random.Range(-0.3f, 0.3f);
