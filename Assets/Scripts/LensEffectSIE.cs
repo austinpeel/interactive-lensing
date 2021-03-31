@@ -106,7 +106,7 @@ public class LensEffectSIE : MonoBehaviour
 
             matchMeter.fillAmount = matchAmount;
 
-            if (matchAmount >= 0.992f)
+            if (matchAmount >= 0.99f)
             {
                 thetaE = target.lensParams.thetaE;
                 e1 = target.lensParams.e1;

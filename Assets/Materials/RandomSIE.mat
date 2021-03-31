@@ -60,8 +60,8 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _E1: -0.2639473
-    - _E2: -0.12637119
+    - _E1: 0.31751615
+    - _E2: 0.27437636
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -73,10 +73,10 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _ThetaE: 0.33667457
+    - _ThetaE: 0.43065643
     - _UVSec: 0
-    - _X0: -0.23426807
-    - _Y0: 0.14563598
+    - _X0: 0.10257833
+    - _Y0: -0.25208256
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
