@@ -73,7 +73,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _ThetaE: 0.43065643
+    - _ThetaE: 0
     - _UVSec: 0
     - _X0: 0.10257833
     - _Y0: -0.25208256

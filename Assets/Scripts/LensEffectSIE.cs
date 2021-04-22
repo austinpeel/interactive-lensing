@@ -31,8 +31,10 @@ public class LensEffectSIE : MonoBehaviour
     // For broadcasting
     public GameEvent OnMatch;
     public GameEvent OnLoadLevel;
+    public GameEvent OnDragLens;
 
     private bool gameIsFrozen;
+    private bool draggingLens;
 
     private void Start()
     {
@@ -59,12 +61,22 @@ public class LensEffectSIE : MonoBehaviour
             {
                 SetX0(x0);
                 SetY0(y0);
+
+                if (!draggingLens)
+                {
+                    draggingLens = true;
+                    if (OnDragLens != null)
+                    {
+                        OnDragLens.Raise();
+                    }
+                }
             }
         }
 
         if (Input.GetMouseButtonUp(0))
         {
             Cursor.visible = true;
+            draggingLens = false;
         }
 
         if (Input.GetKeyDown(KeyCode.M) && target != null)
